@@ -38,6 +38,14 @@ body {
 .history-display {
   margin: 0;
   height: 100%;
+  font-family: "Lucida Console", sans-serif;
+  font-weight: 900;
+  color: gray;
+  max-height: 425px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 5px;
+  word-wrap: break-word;
 }
 
 .history-clear-btn {
@@ -58,6 +66,7 @@ body {
   align-items: flex-end;
   max-width: 100%;
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .calculator-display h1 {

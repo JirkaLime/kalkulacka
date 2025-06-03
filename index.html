@@ -19,26 +19,26 @@
         <!-- Buttons -->
         <div class="calculator-buttons">
           <button class="clear" id="clear-all-btn">CE</button>
-          <button class="operator" id="exponent" value="^">^</button>
+          <button onclick="press('^')" class="operator" id="exponent" value="^">^</button>
           <button class="operator" id="bracket-left" value="(">(</button>
           <button class="operator" id="bracket-right" value=")">)</button>
           <button class="clear" id="clear-btn">C</button>
-          <button class="operator" value="/">/</button>
-          <button class="operator" value="*">*</button>
-          <button class="operator" value="-">-</button>
-          <button class="operator plus-sign" value="+">+</button>
-          <button value="7">7</button>
-          <button value="8">8</button>
-          <button value="9">9</button>
-          <button value="4">4</button>
-          <button value="5">5</button>
-          <button value="6">6</button>
-          <button value="1">1</button>
-          <button value="2">2</button>
-          <button value="3">3</button>
-          <button class="zero-btn" value="0">0</button>
-          <button class="decimal-sign" id="decimal-sign" value=".">.</button>
-          <button class="operator equal-sign" id="equal-sign" value="=">
+          <button onclick="press('/')"class="operator" value="/">/</button>
+          <button onclick="press('*')" class="operator" value="*">*</button>
+          <button onclick="press('-')" class="operator" value="-">-</button>
+          <button onclick="press('+')" class="operator plus-sign" value="+">+</button>
+          <button onclick="press(7)" value="7">7</button>
+          <button onclick="press(8)" value="8">8</button>
+          <button onclick="press(9)" value="9">9</button>
+          <button onclick="press(4)" value="4">4</button>
+          <button onclick="press(5)" value="5">5</button>
+          <button onclick="press(6)" value="6">6</button>
+          <button onclick="press(1)" value="1">1</button>
+          <button onclick="press(2)" value="2">2</button>
+          <button onclick="press(3)" value="3">3</button>
+          <button onclick="press(0)" class="zero-btn" value="0">0</button>
+          <button onclick="press('.')" class="decimal-sign" id="decimal-sign" value=".">.</button>
+          <button onclick="calculate()" class="operator equal-sign" id="equal-sign" value="=">
             =
           </button>
         </div>
